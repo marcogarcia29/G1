@@ -1,0 +1,190 @@
+/*Estilização geral*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Topo */
+
+#topo {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#globo a img {
+    width: 70px;
+}
+
+.g1 :hover{
+    border-top: 2px solid rgb(161, 5, 5);
+}
+
+.ge :hover{
+    border-top: 2px solid green;
+}
+
+.gshow :hover{
+    border-top: 2px solid rgb(201, 134, 9);
+}
+
+.videos :hover{
+    border-top: 2px solid blue;
+}
+
+.oglobo :hover{
+    border-top: 2px solid rgb(3, 3, 119);
+}
+
+
+
+#topnavbar ul{
+    display: flex;
+    float: left;
+}
+
+#topbar ul {
+    float: left;
+}
+
+#topnavbar ul li {
+    float: left;
+    padding: 6px;
+    margin-bottom: 5px;
+}
+
+#conta ul {
+    display:flex;
+    float: right;
+}
+
+#conta ul li {
+    float: left;
+    display: flex;
+    padding: 5px;
+}
+
+#conta ul li a {
+    color: rgb(172, 169, 169);
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#conta ul li a:hover{
+    color: rgb(60, 60, 243);
+}
+
+#conta ul li a :hover{
+    color: rgb(60, 60, 243);
+}
+
+
+#conta ul li a  button{
+    color: #385194;
+    width: 65px;
+    text-align: left;
+    padding-left: 2px;
+    color: rgb(172, 169, 169);
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+#pesquisa {
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(196, 1, 1);
+    height: 75px;
+}
+
+#pesquisa a img {
+    width: 60px;
+    padding: 20px 0 0 49%;
+    display: inline;
+}
+
+#pesquisa input[type=text] {
+    display: block;
+    float: right;
+    width: 7%;
+    padding: 6px;
+    margin-top: 20px;
+    margin-right: 15%;
+    border: none;
+    font-size: 17px;
+    background: rgb(172, 2, 2);
+}
+
+::placeholder {
+    color: white;
+}
+
+/* Noticias*/
+#centro {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#principal {
+    float: left;
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 45%;
+}
+
+#principal img {
+    width: 100%;
+}
+
+#secundario{
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+#secundario li img {
+    width: 550px;
+    height: 225px;
+    margin-bottom: 7px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: rgb(248, 36, 36);
+    height: 100px;
+}
+
+#endpage {
+    margin-top: 15px;
+    float: left;
+    margin-left: 20%;
+}
+
+#textend {
+    float: right;
+    margin-left: 15px;
+    margin-right: 270px;
+    margin-top: 6px;
+    color: white;
+}
+
+#copia {
+    padding-top: 20px;
+    color: white;
+    font-size: 10px;
+}
